@@ -19,7 +19,7 @@
   padding-bottom: 1.5rem !important;
 }
 
-body {
+#profile {
   margin-top: 6%;
 }
 
@@ -52,4 +52,3 @@ body {
   color: #468ee5;
   background-color: #dbe9fa;
 }
-
