@@ -92,6 +92,10 @@
       name: "twitter",
       href: "https://x.com/10011010100101C"
     },
+    {
+      name: "dev.to",
+      href: "https://dev.to/beroller"
+    },
   ]
 
   const elSocs = document.querySelectorAll(`#socs [data-glitched="1"] a[href]`)
