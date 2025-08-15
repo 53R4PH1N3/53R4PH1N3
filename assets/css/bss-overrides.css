@@ -52,3 +52,12 @@
   color: #468ee5;
   background-color: #dbe9fa;
 }
+
+ul {
+    list-style-type: none;
+}
+
+#list-content {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -11,35 +11,11 @@
     <link rel="stylesheet" href="./assets/css/bss-overrides.css">
 </head>
 
-<body id="profile">
-    <section class="my-lg-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-3 col-lg-4 col-sm-12">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-1 mb-5 mb-md-3">
-                        <div class="col-sm-4"><img class="profile-pic img-fluid border rounded border-0 shadow-sm mb-4" src="./assets/img/profile.jpg"></div>
-                        <div class="col-sm-8 order-sm-first order-lg-last text-center">
-                            <div id="hastags">
-                                <p>
-                                    <span class="badge badge-secondary">#webdev</span>
-                                    <span class="badge badge-secondary">#softdev</span>
-                                    <span class="badge badge-secondary">#hobbyist</span>
-                                </p>
-                            </div>
-                            <h3 class="fs-5 fw-bold text-primary">Hey! I'm Carl</h3>
-                            <p>who loves to explore new things and makes it a hobby, and also learning cybersecurity as a hobby.</p>
-                            <h3 class="mt-5 fs-6 fw-bold text-primary">Email</h3>
-                            <p><a class="glitch" href="mailto:carl_cabahug@umindanao.edu.ph">carl_cabahug@umindanao.edu.ph</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="text-center">
-        <div class="container text-muted py-4 py-lg-5">
+<body id="blogs">
+    <header class="text-center">
+        <div class="container text-muted py-4">
              <ul class="list-inline">
-                <li class="glitch list-inline-item me-4"><a href="./blog.html">/Blog</a></li>
+                <li class="glitch list-inline-item me-4"><a href="./">/Home</a></li>
                 <li class="glitch list-inline-item me-4"><a href="./">/Hobbies</a></li>
                 <li class="glitch list-inline-item me-4"><a href="./cv.pdf">/cv</a></li>
             </ul>
@@ -86,11 +62,22 @@
                 </li>
             </ul>
         </div>
-    </footer>
+    </header>
+
+    <section class="my-lg-5">
+        <div class="container">
+            <div class="spinners text-center">
+                <div class="spinner-grow spinner-grow-sm" role="status"></div>
+            </div>
+            <div id="list-content"></div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/powerglitch@2.4.0/dist/powerglitch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.11/dist/axios.min.js"></script>
     <script src="./assets/js/template.js"></script>
     <script src="./assets/js/fakerconfusewappalizer.js"></script>
+    <script src="./assets/js/blog.js"></script>
 </body>
 
 </html>
