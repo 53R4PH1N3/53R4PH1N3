@@ -80,16 +80,16 @@
       name: "linkedin",
       href: "https://www.linkedin.com/in/ccabahug"
     },
+    // {
+    //   name: "facebook",
+    //   href: "https://www.facebook.com/1000101010010110001011110101011000010100100101011C/"
+    // },
+    // {
+    //   name: "instragram",
+    //   href: "https://www.instagram.com/_0100001101001010/"
+    // },
     {
-      name: "facebook",
-      href: "https://www.facebook.com/1000101010010110001011110101011000010100100101011C/"
-    },
-    {
-      name: "instragram",
-      href: "https://www.instagram.com/_0100001101001010/"
-    },
-    {
-      name: "twitter",
+      name: "X",
       href: "https://x.com/10011010100101C"
     },
     {
