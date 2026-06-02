@@ -1,4 +1,4 @@
-(async function() { 
+window.loadBlog = async function() {
     await axios.get("https://dev.to/api/articles?username=beroller")
     .then((response) => {
         const blogData = response.data;
@@ -47,4 +47,4 @@
         });
     })
     .catch((error) => console.log(error));
-})()
+}

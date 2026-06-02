@@ -49,8 +49,36 @@
 
 .badge-secondary {
   border-radius: 0px;
-  color: #468ee5;
-  background-color: #dbe9fa;
+}
+
+#hastags .badge:nth-child(1) {
+  color: #2563eb;
+  background-color: #dbeafe;
+}
+
+#hastags .badge:nth-child(2) {
+  color: #059669;
+  background-color: #d1fae5;
+}
+
+#hastags .badge:nth-child(3) {
+  color: #7c3aed;
+  background-color: #ede9fe;
+}
+
+[data-bs-theme="dark"] #hastags .badge:nth-child(1) {
+  color: #93c5fd;
+  background-color: #1e3a5f;
+}
+
+[data-bs-theme="dark"] #hastags .badge:nth-child(2) {
+  color: #6ee7b7;
+  background-color: #064e3b;
+}
+
+[data-bs-theme="dark"] #hastags .badge:nth-child(3) {
+  color: #c4b5fd;
+  background-color: #2e1065;
 }
 
 ul {
